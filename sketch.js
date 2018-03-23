@@ -14,7 +14,7 @@ function draw() {
   let x = mouseX;
   let y = mouseY;
 
-  //background (x % 255, 255- y %255, 0)
+  background (x % 255, 255- y %255, 0)
   //if x and y are used it needs to be defined above of the command
 
   if(x > width/2) {
